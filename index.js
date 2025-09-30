@@ -5,7 +5,7 @@ async function enviarCorreoPrueba() {
   try {
     const mailOptions = {
       from: 'devsoportectpga@gmail.com', // Correo remitente
-      to: 'diegoguerrapi123@gmail.com', // Cambia esto por el correo del destinatario
+      to: 'elverher89@gmail.com', // Cambia esto por el correo del destinatario
       subject: 'Correo de prueba desde Nodemailer',
       text: 'Este es un correo de prueba enviado desde Nodemailer',
       html: '<h1>Correo de prueba</h1><p>Este es un <b>correo de prueba</b> enviado desde <i>Nodemailer</i>.</p>',
